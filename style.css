@@ -1,0 +1,27 @@
+section {
+  font-family: 'Droid Sans', sans-serif;
+
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+article {
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+  background-color: #FF851B;
+  width: 640px;
+    
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0.1px solid #FF851B;
+  
+}
+
+
