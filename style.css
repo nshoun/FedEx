@@ -3,6 +3,11 @@ section {
 
 }
 
+p {
+  font-family: 'Droid Sans', sans-serif;
+
+}
+
 li {
   display: inline;
   list-style-type: none;
