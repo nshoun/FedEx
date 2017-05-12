@@ -1,5 +1,7 @@
-body.welcome {
-    background-image: url("bg5.jpg")
+body.welcome { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("bg11large.jpg")
 }
 
 section {
@@ -7,7 +9,7 @@ section {
 }
 
 p {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif; font-size: 60px; color: mediumpurple; text-shadow: 1.5px 1.5px #FF7F50
 }
 
 
@@ -35,8 +37,7 @@ article {
 
 
 ul {
-  width:600px;
-  left: 34%;    
+  width:600px;    
   margin: 0px 0px 0px 0px;
   padding: 6px 6px 4px 6px;
   height: 15px;
@@ -51,6 +52,8 @@ ul {
   border: solid 2px #FF9A00;
   position:relative;
   z-index:999;
+  display: inline-block;
+  list-style-type: none;
 }
 
 
