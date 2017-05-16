@@ -35,8 +35,9 @@ article {
 }
 
 
+/* navigation bar */
 
-ul {
+ul.main {
   width:600px;    
   margin: 0px 0px 0px 0px;
   padding: 6px 6px 4px 6px;
@@ -57,10 +58,32 @@ ul {
 }
 
 
+/* schedule.html nav bar */
+
+ul.schedule {
+  width:170px;    
+  margin: 30px 10px 10px 10px;
+  padding: 6px 6px 4px 6px;
+  height: 15px;
+  line-height: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  box-shadow: 2px 2px 3px #6D0DFF;
+  -webkit-box-shadow: 2px 3px 2px #6D0DFF;
+  -moz-box-shadow: 2px 2px 3px #FF9A00;
+  background: #FF9A00;
+  border: solid 2px #FF9A00;
+  position:relative;
+  z-index:999;
+  display: inline-block;
+  list-style-type: none;
+}   
 
 
 
 
+/* CSS code for print button/icon */
 
 button.print-button {
   width: 100px;
