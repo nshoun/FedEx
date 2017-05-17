@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<div style="text-align: center;">   
+    <a href="index.html">
+        <img src="logo.png" style="max-width: 100%; height: auto;">
+    </a>
+</div> 
+
+<head>
+    <meta charset="UTF-8">
+    <center><p><b>Performance Metrics for Toledo Hub 436</b></p></center>   
+<link href=’http://fonts.googleapis.com/css?family=Droid+Sans’ rel=’stylesheet’ type=’text/css‘>
+<link rel="stylesheet" type="text/css" href=style.css>
+
+<title>FedEx Ground-TOLE 436</title>
+
+</head>  
+
+    
+
+<body class="container welcome">
+    
+    
+    <SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter The Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "purplepromise436") {
+alert('Password correct!');
+window.open('index2.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
+    
+    
+</body>
+
+
+ 
+
+
+
+</html>
